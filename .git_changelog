@@ -1,0 +1,6 @@
+# Engineering Changelog: vscode-ml-benchmark-runner
+
+Inception Date: 2025-04-03
+Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
+
+- [2025-04-03] chore: scaffold VS Code extension TypeScript project and package.json

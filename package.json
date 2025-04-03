@@ -1,0 +1,11 @@
+{
+  "name": "vscode-ml-benchmark-runner",
+  "displayName": "ML Benchmark Runner",
+  "description": "Trigger and monitor local AI model benchmarks directly inside VS Code.",
+  "version": "0.3.0",
+  "publisher": "guptasoujanya",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Machine Learning", "Testing"],
+  "main": "./out/extension.js",
+  "scripts": { "compile": "tsc -p ./" }
+}
