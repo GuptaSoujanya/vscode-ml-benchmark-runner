@@ -6,3 +6,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-03] chore: scaffold VS Code extension TypeScript project and package.json
 - [2025-04-15] feat: package: configure extension manifests, commands, and activation events
 - [2025-04-28] feat: src: implement ExtensionContext activation and command registry
+- [2025-05-11] feat: src: add mlBenchmark.run GSM8K and MMLU command handlers
