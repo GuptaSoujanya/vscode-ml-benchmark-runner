@@ -8,3 +8,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-24] feat: src: implement ExtensionContext activation and command registry
 - [2025-05-05] feat: src: add mlBenchmark.run GSM8K and MMLU command handlers
 - [2025-05-16] feat: src: implement status bar item showing current benchmark status
+- [2025-05-26] feat: webview: implement responsive HTML/CSS dashboard for results
