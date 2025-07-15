@@ -11,3 +11,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-06-06] feat: webview: implement responsive HTML/CSS dashboard for results
 - [2025-06-19] feat: webview: add real-time streaming progress bar for active benchmarks
 - [2025-07-02] feat: runner: implement child process spawner executing local python runner
+- [2025-07-15] fix: handle python virtual environment path resolution in workspace
