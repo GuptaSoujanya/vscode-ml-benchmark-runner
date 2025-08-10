@@ -13,3 +13,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-02] feat: runner: implement child process spawner executing local python runner
 - [2025-07-15] fix: handle python virtual environment path resolution in workspace
 - [2025-07-28] test: add extension activation unit tests with mocked VS Code API
+- [2025-08-10] ci: configure GitHub Actions automated TypeScript compile and lint workflow
