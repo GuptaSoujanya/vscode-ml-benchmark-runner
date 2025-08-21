@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-07-19] ci: configure GitHub Actions automated TypeScript compile and lint workflow
 - [2025-07-30] docs: add extension installation and keyboard shortcut documentation
 - [2025-08-10] feat: webview: add bar charts comparing Pass@1 across evaluated models
+- [2025-08-21] feat: config: add configuration schema for default model endpoints
