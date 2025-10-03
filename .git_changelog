@@ -20,3 +20,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-01] feat: runner: parse streaming JSON benchmark outputs line-by-line
 - [2025-09-11] test: verify streaming output parser emits incremental progress events
 - [2025-09-22] docs: add animated screenshots of Webview dashboard in README
+- [2025-10-03] perf: throttle Webview postMessage updates to 60fps to prevent UI lag
