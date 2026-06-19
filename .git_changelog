@@ -32,3 +32,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-16] test: verify token diff view correctly formats multi-line code outputs
 - [2026-04-16] docs: document keyboard shortcuts for fast benchmark cycling in editor
 - [2026-05-18] perf: optimize Webview bundle size by removing redundant dependencies
+- [2026-06-19] fix: handle workspace folders with spaces in file path correctly
