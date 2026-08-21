@@ -1,32 +1,14 @@
-# Engineering Changelog: vscode-ml-benchmark-runner
-
-Inception Date: 2025-04-03
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2025-04-03] chore: scaffold VS Code extension TypeScript project and package.json
-- [2025-04-15] feat: package: configure extension manifests, commands, and activation events
-- [2025-04-28] feat: src: implement ExtensionContext activation and command registry
-- [2025-05-11] feat: src: add mlBenchmark.run GSM8K and MMLU command handlers
-- [2025-05-24] feat: src: implement status bar item showing current benchmark status
-- [2025-06-06] feat: webview: implement responsive HTML/CSS dashboard for results
-- [2025-06-19] feat: webview: add real-time streaming progress bar for active benchmarks
-- [2025-07-02] feat: runner: implement child process spawner executing local python runner
-- [2025-07-15] fix: handle python virtual environment path resolution in workspace
-- [2025-07-28] test: add extension activation unit tests with mocked VS Code API
-- [2025-08-10] ci: configure GitHub Actions automated TypeScript compile and lint workflow
-- [2025-08-23] docs: add extension installation and keyboard shortcut documentation
-- [2025-09-05] feat: webview: add bar charts comparing Pass@1 across evaluated models
-- [2025-09-18] feat: config: add configuration schema for default model endpoints
-- [2025-10-01] feat: runner: parse streaming JSON benchmark outputs line-by-line
-- [2025-10-14] test: verify streaming output parser emits incremental progress events
-- [2025-10-27] docs: add animated screenshots of Webview dashboard in README
-- [2025-11-09] perf: throttle Webview postMessage updates to 60fps to prevent UI lag
-- [2025-11-22] feat: export: add command exporting benchmark runs to markdown file
-- [2025-12-05] chore: bump version to v0.8.0 and package .vsix artifact
-- [2026-01-12] feat: add side-by-side model response comparison view in Webview
-- [2026-02-12] feat: highlight differing tokens and reasoning divergence in diff viewer
-- [2026-03-16] test: verify token diff view correctly formats multi-line code outputs
-- [2026-04-16] docs: document keyboard shortcuts for fast benchmark cycling in editor
-- [2026-05-18] perf: optimize Webview bundle size by removing redundant dependencies
-- [2026-06-19] fix: handle workspace folders with spaces in file path correctly
-- [2026-07-20] test: verify end-to-end extension commands execute cleanly on VS Code 1.90+
+[2024-01-19T11:46:35] chore: scaffold: initialize VS Code extension manifest, tsconfig, and packaging
+[2024-03-18T17:30:55] feat: extension: implement activation handler and command registration
+[2024-05-06T19:29:37] feat: runner: implement streaming child_process spawn execution harness
+[2024-11-11T17:28:18] feat: ui: implement TreeDataProvider for benchmark suites sidebar view
+[2024-12-09T18:51:39] feat: ui: add TreeItem representation for active model and tasks
+[2025-03-06T20:44:44] feat: webview: implement interactive HTML/CSS benchmark results panel
+[2025-04-12T16:48:39] test: add unit test suite for extension command execution
+[2025-05-03T11:10:34] ci: configure automated extension build and packaging workflow
+[2025-06-07T14:32:12] docs: add architecture diagram and keybinding reference
+[2025-08-18T19:34:34] feat: ui: add quickpick model selector supporting Ollama and vLLM
+[2026-02-12T16:05:40] perf: optimize webview state serialization and IPC message throughput
+[2026-04-29T14:55:20] fix: handle child process termination gracefully on window close
+[2026-06-13T20:42:35] feat: ui: add real-time latency sparkline rendering in webview
+[2026-06-22T16:45:53] chore: release v0.3.0 and update VS Code engine compatibility
