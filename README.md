@@ -49,3 +49,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- PR #58: docs: add hardware environment specifications to README -->
 
 <!-- PR #71: fix: prevent potential zero division during variance calculation -->
+
+<!-- PR #84: feat: add timestamp logging to telemetry output -->
