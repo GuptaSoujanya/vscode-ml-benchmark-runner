@@ -37,3 +37,5 @@ sequenceDiagram
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+
+<!-- PR #6: docs: clarify benchmark metric configuration options -->
